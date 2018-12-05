@@ -1,3 +1,4 @@
+// begin-snippet: demo1_snippet
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -86,3 +87,4 @@ function update ()
         player.setVelocityY(-330);
     }
 }
+// end-snippet

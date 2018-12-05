@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/carolkng/jekyll-include_snippet
+  revision: ce494e08540a67778587b1fe4b15a2cac8d1a6b7
+  specs:
+    jekyll-include_snippet (0.1.2)
+      liquid (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -67,6 +74,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
+  jekyll-include_snippet!
   minima (~> 2.0)
   tzinfo-data
 
