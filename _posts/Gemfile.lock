@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-include_snippet (0.1.2)
+      liquid (>= 3.0)
+    liquid (4.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-include_snippet
+
+BUNDLED WITH
+   1.17.1
