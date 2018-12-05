@@ -1,6 +1,6 @@
 ---
 layout: demo
-script: /assets/phaser.min.js
+script: /assets/demo/demo1.js
 excerpt: This is the excerpt for demo1
 ---
 
