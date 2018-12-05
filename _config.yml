@@ -17,8 +17,8 @@ title: Game Mechanics Explorer
 email: carol@carolkng.com
 description: >- # this means to ignore newlines until "baseurl:"
     Exploration of simple game building blocks in Phaser 3
-baseurl: "game-mechanics" # the subpath of your site, e.g. /blog
-url: "https://carolkng.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: carolkng
 github_username:  carolkng
 
