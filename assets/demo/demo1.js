@@ -8,7 +8,7 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 300 },
+            gravity: { y: 600 },
             debug: false
         }
     },
@@ -39,7 +39,6 @@ function create ()
     platforms.create(400,568,'ground').setScale(2).refreshBody();
     
     player = this.physics.add.sprite(400,200,'dude');
-    player.setBounce(0.2);
     player.setCollideWorldBounds(true);
     this.anims.create({
         key: 'left',
@@ -71,15 +70,12 @@ function update ()
 {
     if (cursors.left.isDown) {
         player.setVelocityX(-160);
-
         player.anims.play('left', true);
     } else if (cursors.right.isDown) {
         player.setVelocityX(160);
-
         player.anims.play('right', true);
     } else {
         player.setVelocityX(0);
-
         player.anims.play('turn');
     }
 
